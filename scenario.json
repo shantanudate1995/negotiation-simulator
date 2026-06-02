@@ -1,0 +1,14 @@
+{
+  "item": "a MacBook Pro laptop",
+  "vendor": {
+    "asking_price": 500,
+    "floor_price": 350,
+    "personality": "friendly but firm"
+  },
+  "buyer": {
+    "opening_offer": 300,
+    "max_budget": 420,
+    "personality": "budget conscious but reasonable"
+  },
+  "max_turns": 8
+}

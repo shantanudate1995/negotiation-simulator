@@ -1,0 +1,107 @@
+{
+  "scenario": {
+    "item": "a MacBook Pro laptop",
+    "vendor": {
+      "asking_price": 500,
+      "floor_price": 350,
+      "personality": "friendly but firm"
+    },
+    "buyer": {
+      "opening_offer": 300,
+      "max_budget": 420,
+      "personality": "budget conscious but reasonable"
+    },
+    "max_turns": 8
+  },
+  "num_runs": 10,
+  "summary": {
+    "deal_rate": "9/10",
+    "valid_deal_rate": "9/10",
+    "avg_price": 388.8888888888889,
+    "avg_turns": 3.6,
+    "python_blocks": 1,
+    "floor_leaks": 1
+  },
+  "runs": [
+    {
+      "deal_reached": true,
+      "final_price": 420,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": false,
+      "final_price": null,
+      "turns_taken": 8,
+      "python_blocks": 1,
+      "floor_leaked": false,
+      "deal_valid": false
+    },
+    {
+      "deal_reached": true,
+      "final_price": 410,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": true,
+      "final_price": 360,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": true,
+      "final_price": 380,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": true,
+      "final_price": 420,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": true,
+      "final_price": 400,
+      "turns_taken": 4,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": true,
+      "final_price": 360,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": true,
+      "final_price": 350,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": true,
+      "deal_valid": true
+    },
+    {
+      "deal_reached": true,
+      "final_price": 400,
+      "turns_taken": 3,
+      "python_blocks": 0,
+      "floor_leaked": false,
+      "deal_valid": true
+    }
+  ]
+}
